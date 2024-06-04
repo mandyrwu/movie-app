@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -22,6 +22,113 @@
 }
 
 .add-review-button:hover {
+  background-color: #21a1f1;
+}
+.view-reviews-button {
+  background-color: #61dafb;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #282c34;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.view-reviews-button:hover {
+  background-color: #21a1f1;
+}
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.movie-item {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: calc(100vh / 3);
+  overflow: hidden;
+}
+
+.movie-item img {
+  width: 100%;
+  max-height: 60%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.movie-item h2 {
+  margin: 5px 0;
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movie-item p {
+  margin: 10px 0;
+  font-size: 0.8rem;
+  color: #555;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} */
+
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px; /* Add this line to create space between the buttons */
+}
+
+.add-review-button {
+  background-color: #61dafb;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #282c34;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.add-review-button:hover {
+  background-color: #21a1f1;
+}
+
+.view-reviews-button {
+  background-color: #61dafb;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #282c34;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.view-reviews-button:hover {
   background-color: #21a1f1;
 }
 
