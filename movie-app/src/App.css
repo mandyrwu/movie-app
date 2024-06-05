@@ -132,7 +132,7 @@
   background-color: #21a1f1;
 }
 
-.movie-grid {
+/* .movie-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
@@ -178,4 +178,4 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-}
+} */

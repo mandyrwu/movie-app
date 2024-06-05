@@ -1,4 +1,4 @@
-.view-reviews-container {
+/* .view-reviews-container {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
@@ -42,4 +42,36 @@
 .review-item p span {
   font-weight: bold;
   color: #333;
+} */
+
+.view-reviews-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reviews-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.review-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-item h3 {
+  margin: 0 0 10px 0;
+}
+
+.review-item p {
+  margin: 5px 0;
 }
